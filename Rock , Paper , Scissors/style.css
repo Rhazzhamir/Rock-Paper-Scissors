@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 50vh;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border: 3px solid black;
+    padding-top: 50px;
+}
+
+.game{
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 80px ;
+    font-size: 24px; 
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+img {
+    margin-left: 10px5;
+    width: 70px;
+    height: 70px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    width: 70%; 
+}
+
+.user button, .computer button{
+    padding: 15px 20px; 
+    font-size: 18px; 
+    margin-bottom: 10px; 
+}
+
+.user , .computer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.user > button , .computer > button{
+    background-color: gray;
+    color: white;
+}
+.user > button:hover , .computer > button:hover{
+    background-color: white;
+    color: gray;
+}
+
+.user > button:active{
+    background-color: rgb(16, 239, 255);
+}
+
+.Selection {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.congrats > img {
+    height: 120px;
+    width: 400px;
+    display: none;
+}
+
+.Selection >h1:last-child{
+    margin-top: 20px;
+    display: none;
+}
